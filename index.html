@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      LAZAREV. 🪀 — Digital Product Design Agency | Award Winning UX &amp; UI
+      Agency
+    </title>
+    <link
+      href="https://assets-global.website-files.com/64a2ab71942e1d57feb6fe39/6528221f95333ff155d01ad2_fav.gif"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- LOCO-MOTIVE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-[#111] text-white cursor-default">
+    <nav class="px-[5vw] md:px-[4vw] lg:px-[6vw] mx-auto w-full bg-[#111] fixed top-0  z-20">
+      <div id="nav-container" class="h-[8vh] sm:h-[10vh] lg:h-[6vw]  lg:w-[88vw] w-[94vw] lg:pt-[1.7vw] flex justify-between items-center lg:items-start lg:border-b overflow-hidden">
+        <div id="logo" class="w-9/12 sm:w-10/12 lg:w-fit">
+          <h1 class="font-black text-[6vw] sm--[5vw] md:text-[3vw] lg:text-[1.8vw]">LAZAREV.</h1>
+        </div>
+        <div id="menu" class="pt-[1vw] hidden lg:flex">
+          <div class="menu-elem elems">
+            <h4>Case Studies</h4>
+            <h5><span>Case Studies</span></h5>
+          </div>
+          <div class="menu-elem elems">
+            <h4>Areas of experties</h4>
+            <h5><span>🔥 AI & ML</span></h5>
+            <h5><span>Fintech</span></h5>
+            <h5><span>Real Estate</span></h5>
+            <h5><span>E-commerce</span></h5>
+            <h5><span>Web 3</span></h5>
+          </div>
+          <div class="menu-elem elems">
+            <h4>UIUX Design</h4>
+            <h5><span>UX Audit</span></h5>
+            <h5><span>UI Design</span></h5>
+            <h5><span>UX Design</span></h5>
+            <h5><span>UX Research</span></h5>
+          </div>
+          <div class="menu-elem elems">
+            <h4>PRoduct design</h4>
+            <h5><span>SaaS</span></h5>
+            <h5><span>Web App</span></h5>
+            <h5><span>Mobile App</span></h5>
+            <h5><span>Website Design</span></h5>
+          </div>
+          <div class="menu-elem elems">
+            <h4>Design Process</h4>
+  
+            <h5><span>MVP</span></h5>
+            <h5><span>Relaunch</span></h5>
+          </div>
+          <div class="menu-elem elems">
+            <h4>About Agency</h4>
+            <h5><span>Our Story</span></h5>
+            <h5><span>Client's Feedback</span></h5>
+            <h5><span>Careers</span></h5>
+            <h5>&nbsp;</h5>
+            <h5><span>News & Articles</span></h5>
+          </div>
+        </div>
+        <div id="btn" class="relative ml-[4.1vw] lg:ml-0  lg:w-[10vw] lg:h-[3vw] sm:h-[5vw] sm:w-[5vw] h-[10vw] w-[10vw]">
+            <span class="inline-block absolute lg:right-0 h-full w-full bg-green-600 rounded-full transition-all ease-in-out duration-500"><svg class="c-bttn__morph h-[10vw] w-[10vw] sm:h-[5vw] sm:w-[5vw] lg:h-[3vw] lg:w-[3vw] lg:float-end" fill="none" viewBox="0 0 131 136">
+              <path
+              class="g-path"
+                data-morph="end"
+                fill="#fff"
+                d="M48 77.457v7.224h7.224l21.307-21.306-7.224-7.225L48 77.457Zm34.118-19.67a1.919 1.919 0 0 0 0-2.716l-4.508-4.508a1.919 1.919 0 0 0-2.716 0l-3.526 3.526 7.224 7.224 3.526-3.525Z"></path>
+              <path
+                class="g-path"
+                data-morph="start"
+                fill="#fff"
+                d="M48 77.457v7.224h7.224l21.307-21.306-7.224-7.225L48 77.457Zm34.118-19.67a1.919 1.919 0 0 0 0-2.716l-4.508-4.508a1.919 1.919 0 0 0-2.716 0l-3.526 3.526 7.224 7.224 3.526-3.525Z"
+                data-original="M65.72 109.14c10.08 0 17.76-3.78 23.04-11.34 5.4-7.68 8.1-17.64 8.1-29.88 0-12.24-2.7-22.2-8.1-29.88-5.28-7.68-12.96-11.52-23.04-11.52-9.96 0-17.7 3.84-23.22 11.52-5.4 7.68-8.1 17.64-8.1 29.88 0 12.12 2.7 22.02 8.1 29.7 5.52 7.68 13.26 11.52 23.22 11.52Zm46.08 7.02c-11.64 12.6-27.06 18.9-46.26 18.9s-34.62-6.3-46.26-18.9C7.76 103.56 2 87.48 2 67.92c0-19.56 5.76-35.64 17.28-48.24C30.92 7.08 46.34.78 65.54.78s34.62 6.3 46.26 18.9c11.64 12.6 17.46 28.68 17.46 48.24 0 19.56-5.82 35.64-17.46 48.24Z"></path></svg></span>
+            <button class="text-left hidden lg:block text-[1vw] px-[1vw] w-full h-full uppercase font-bold relative">let's talk</button>
+        </div>
+        <div id="burger-menu" class="w-[10vw] h-[10vw] sm:w-[5vw] sm:h-[5vw] lg:hidden relative y-4 rounded-full cursor-pointer bg-[#333]">
+          <div class="line h-[2px] w-1/2 absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-[179.99deg] bg-white"></div>
+          <div class="line h-[2px] w-1/2 absolute bottom-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-[-179.99deg] bg-white"></div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div id="page1" class="mx-auto px-[4vw] lg:px-0 flex flex-col items-start lg:items-center lg:justify-center w-full lg:min-h-screen pt-[17vh] md:pt-[15vw] lg:pt-[13vw] bg-[#111]">
+        <h1 class="w-[65%] md:w-full text-[11vw] md:text-[6vw] lg:text-[9vw] font-black uppercase leading-[11vw] md:leading-[6vw] lg:leading-[9vw] overflow-hidden tracking-tighter md:whitespace-nowrap lg:text-center">
+          <span class="inline-block"
+            >Ai & ml Pr<svg
+              class="c-bttn__morph inline-block w-[8vw] h-[8vw] md:w-[5vw] md:h-[5vw] lg:w-[7vw] lg:h-[7vw] rounded-full bg-green-600 mb-[2vw] md:mb-[1vw] ml-[.3vw] lg:ml-0 lg:mb-[1.8vw] hover:-rotate-[30deg] hover:scale-[0.8]  transition duration-500"
+              fill="none"
+              viewBox="0 0 131 136"
+            >
+              <path
+                class="g-path"
+                data-morph="end"
+                fill="#fff"
+                d="M48 77.457v7.224h7.224l21.307-21.306-7.224-7.225L48 77.457Zm34.118-19.67a1.919 1.919 0 0 0 0-2.716l-4.508-4.508a1.919 1.919 0 0 0-2.716 0l-3.526 3.526 7.224 7.224 3.526-3.525Z"
+              ></path>
+              <path
+                class="g-path"
+                data-morph="start"
+                fill="#fff"
+                d="M48 77.457v7.224h7.224l21.307-21.306-7.224-7.225L48 77.457Zm34.118-19.67a1.919 1.919 0 0 0 0-2.716l-4.508-4.508a1.919 1.919 0 0 0-2.716 0l-3.526 3.526 7.224 7.224 3.526-3.525Z"
+                data-original="M65.72 109.14c10.08 0 17.76-3.78 23.04-11.34 5.4-7.68 8.1-17.64 8.1-29.88 0-12.24-2.7-22.2-8.1-29.88-5.28-7.68-12.96-11.52-23.04-11.52-9.96 0-17.7 3.84-23.22 11.52-5.4 7.68-8.1 17.64-8.1 29.88 0 12.12 2.7 22.02 8.1 29.7 5.52 7.68 13.26 11.52 23.22 11.52Zm46.08 7.02c-11.64 12.6-27.06 18.9-46.26 18.9s-34.62-6.3-46.26-18.9C7.76 103.56 2 87.48 2 67.92c0-19.56 5.76-35.64 17.28-48.24C30.92 7.08 46.34.78 65.54.78s34.62 6.3 46.26 18.9c11.64 12.6 17.46 28.68 17.46 48.24 0 19.56-5.82 35.64-17.46 48.24Z"
+              ></path></svg>duct</span
+          >
+        </h1>
+        <h1 class="w-7/12 md:w-full text-[11vw] md:text-[6vw] lg:text-[9vw] font-black uppercase leading-[11vw] md:leading-[6vw] lg:leading-[9vw] overflow-hidden tracking-tighter md:whitespace-nowrap lg:text-center"><span class="inline-block">Design agency</span></h1>
+        <div id="page1-para" class="my-[8vw] md:my-[4vw] lg:my-[3vw]">
+          <h4 class="text-[3.65vw] w-9/12 md:w-full md:text-[2.5vw] lg:text-[1.3vw] text-gray-100 lg:text-center lg:leading-none tracking-tighter font-bold md:font-medium">
+            We partner with AI & ML businesses, guiding them from series A
+          <br>
+          to series D and beyond with our expertise in<br>
+            <span class="inline-flex items-center justify-center rounded-full border border-gray-500 px-[4vw] md:px-[1.5vw] py-[.5vw] tracking-tighter lg:my-[2vw]">brand design</span><span class="inline-flex items-center justify-center rounded-full border border-gray-500 px-[4vw] md:px-[1.5vw] py-[.5vw] tracking-tighter lg:my-[2vw]">user experience</span> and
+            <span class="inline-flex items-center justify-center rounded-full border border-gray-500 px-[4vw] md:px-[1.5vw] py-[.5vw] tracking-tighter lg:my-[2vw]">digital product design</span>.
+        </h4>
+        </div>
+        <div id="marquee-effect" class="flex p-4 w-[94vw] lg:w-7/12 whitespace-nowrap overflow-hidden mb-[10vh] mt-[7vh] md:mb-[9vw] md:mt-[4vw] relative before:w-2/6 after:w-2/6 before:h-full after:h-full before:absolute after:absolute before:z-[2] after:z-[2] before:-left-1 after:-right-1 before:bg-gradient-to-r after:bg-gradient-to-r before:from-[#111] after:from-transparent before:to-transparent after:to-[#111]">
+          <div id="move" class="flex-shrink-0 flex justify-center items-center gap-8 ml-8" style="animation: marqueeMove 15s linear infinite">
+            <img src="https://lazarev.kiev.ua/la24/forbes.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/wf.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/forbes.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/rd.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/pmi.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/webby.svg" alt="" />
+          </div>
+          <div id="move" class="flex-shrink-0 flex justify-center items-center gap-8 ml-8" style="animation: marqueeMove 15s linear infinite">
+            <img src="https://lazarev.kiev.ua/la24/forbes.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/wf.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/forbes.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/rd.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/pmi.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/adweek.svg" alt="" />
+            <img src="https://lazarev.kiev.ua/la24/webby.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div id="page2" class= "lg:w-[88vw] w-[94vw] mx-auto mb-[10vh] flex flex-col lg:flex-row justify-between border-t text-gray-200 border-gray-600">
+        <div id="left-sec" class="lg:w-1/2 mb-[8vw] lg:mb-0 py-[7vh] md:py-[3vw] flex flex-col justify-between">
+            <p class="font-bold text-[3.2vw] leading-[3.8vw] md:text-[1.8vw] lg:text-[.9vw] tracking-tighter md:leading-[2.2vw] lg:leading-[1.2vw]">Exclusive insights into <br> UI/UX and  product design</p>
+            <h5 class="font-medium text-[4.5vw] md:text-[2.25vw] lg:w-7/12 mt-[5vw] lg:mt-0 lg:text-[1.2vw] tracking-tighter leading-[4.8vw] md:leading-[2.5vw] lg:leading-[1.7vw]">Being a design studio at the forefront of digital
+            transformation and product design, we take it
+            upon ourselves to drop some knowledge, share
+            insights, let out insider tips, and put our work
+            full display</h5>
+        </div>
+        <div id="right-sec" class="lg:w-1/2">
+            <div class="sec">
+              <img src="./assets/img-1.webp" alt="">
+              <h2>Effective Design Principles For Cryptocurrency Trading Interfaces</h2>
+              <div class="read">
+                <p>3 min read</p>
+                <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+              </div>
+            </div>
+            <div class="sec">
+              <img src="./assets/img-2.webp" alt="">
+              <h2>How To design an AI interface Users will trust in 2024?</h2>
+              <div class="read">
+                <p>5 min read</p>
+                <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+              </div>
+            </div>
+            <div class="sec">
+              <img src="./assets/img-3.webp" alt="">
+              <h2>how AI influences design and the reciprocal impact of UX on AI-Driven products</h2>
+              <div class="read">
+                <p>5 min read</p>
+                <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+              </div>
+            </div>
+            <div class="sec">
+              <img src="./assets/img-4.webp" alt="">
+              <h2>lazarev becomes a professional weeblow partner</h2>
+              <div class="read">
+                <p>3 min read</p>
+                <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div id="page3" class="h-[45vh] lg:h-screen bg-[url(../dist/assets/bgimg-1.webp)] bg-cover bg-center flex justify-center items-center relative">
+        <div id="video-container" class="fixed bottom-[25%] rounded-2xl overflow-hidden h-[.1%] w-9/12 opacity-0 z-30">
+          <video class="w-full h-full object-cover" src="https://lazarev.kiev.ua/la24/la-reel--min.mp4"></video>
+        </div>
+        <div id="page3-center" class="flex flex-col justify-center items-center">
+            <svg class="h-[18vh] md:h-[20vw] lg:h-[10vw]" fill="none" viewBox="0 0 210 210"><rect width="210" height="210" fill="#fff" rx="105"></rect><path fill="#111" d="m125 105-30 17.321V87.68L125 105Z"></path></svg>
+            <h5 class=" bg-white text-black rounded-full font-bold uppercase tracking-tighter w-fit lg:px-[1vw] lg:py-[.5vw] px-[3vw] py-[1.8vw] md:py-[1vw] md:px-[2vw] text-[2.8vw] md:text-[1.8vw] lg:text-[.8vw] mt-[.5vw] opacity-0">Watch showreel</h5>
+          </div>
+      </div>
+      <div id="page4" class="w-full min-h-screen mx-auto px-[4vw] lg:px-[6vw] bg-white text-black flex flex-col justify-center">
+          <div id="page4-story" class="pt-[15vh] flex flex-col lg:flex-row">
+              <div id="page4-story-left" class="lg:w-1/2 my-[5vw] lg:my-0">
+                <h2 class=" text-[6vh] md:text-[5vw] lg:text-[4vw] lg:w-8/12 font-semibold capitalize tracking-tighter leading-none">success stories
+                  shaped by our
+                  user experience
+                  design agency</h2>
+              </div>
+              <div id="page4-story-right" class="lg:w-1/2 mb-[3vh] md:mb-0 mt-[2vh] md:mt-0 flex flex-col">
+                <div class="right-sec">
+                  <h5 class="opacity-75 uppercase tracking-tighter mb-[1.5vh] md:mb-0 text-[2vh] md:text-[1.8vw] lg:text-[1vw] font-medium">Partnership mentality</h5>
+                  <p class="text-[3.2vh] leading-[3.2vh] md:text-[3vw] lg:text-[1.8vw] tracking-tighter md:leading-[3.1vw] lg:leading-[2vw] pt-[3vw] pb-[7vw] lg:pt-[2vw] lg:pb-[5vw] text-gray-800">Along with taking the lead in designing AI-powered solutions, we embody a partnership mentality. This exact commitment has been the bedrock of our clients’ successes.  When you choose to collaborate with us, we promise to be right where your audience's changing desires meet your ambitious business goals. We don't settle for mediocrity; we strive for excellence in every Figma pixel, every touchpoint, and every UX interaction.</p>
+                </div>
+                <div class="right-sec">
+                  <h5 class="opacity-75 uppercase tracking-tighter mb-[1.5vh] md:mb-0 text-[2vh] md:text-[1.8vw] lg:text-[1vw] font-medium">results</h5>
+                  <p class="text-[3.2vh] leading-[3.2vh] md:text-[3vw] lg:text-[1.8vw] tracking-tighter md:leading-[3.1vw] lg:leading-[2vw] pt-[3vw] pb-[7vw] lg:pt-[2vw] lg:pb-[5vw] text-gray-800">That is how we've built 50+ sustainable startup products and helped 400+ brands secure millions in funding, achieve successful acquisitions, and establish themselves as globally recognized companies.</p>
+                </div>
+              </div>
+          </div>
+          <div id="page4-funding" class="min-h-screen mb-[10vw] lg:mb-[5vw] flex flex-wrap justify-center items-center content-baseline gap-3">    
+          </div>
+          <div id="page4-hover" class="min-h-screen">
+              <div class="page4-hover-effect">
+                <div class="hover-left">
+                  <h2>Pika AI
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                  </h2>
+                  <p>Pika AI is a new and better search engine that harnesses AI technology and helps people find the most relevant and interesting information from across the web.</p>
+                </div>
+                <div class="hover-right bg-[url(./assets/hover-1.webp)]">
+                  <div class="video-hover-circle">
+                    <div class="inside-hover-circle">
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                      <h4>view <br>case study</h4>
+                    </div>
+                  </div>
+                  <video loop playsinline muted type="video/mp4" src="https://lazarev.kiev.ua/cases/la24/pika-cover-big"></video>
+                </div>
+              </div>
+              <div class="page4-hover-effect">
+                <div class="hover-left">
+                  <h2>NODO
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                  </h2>
+                  <p>A promo website for unique cinematography equipment. Inertia Wheels MAX –– the first-hand wheels developed to streamline the operating experience.</p>
+                </div>
+                <div class="hover-right bg-[url(./assets/hover-2.webp)]">
+                  <div class="video-hover-circle">
+                    <div class="inside-hover-circle">
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                      <h4>view <br>case study</h4>
+                    </div>
+                  </div>
+                  <video loop playsinline muted type="video/mp4" src="https://lazarev.kiev.ua/cases/la24/nodo-cover-big.mp4"></video>
+                </div>
+              </div>
+              <div id="page4-bottom-hover" class="h-[160vh] md:h-[80vh] lg:h-[75vh] float-right lg:w-[70%] gap-[4vw] flex flex-col md:flex-row justify-between mb-[7vw]">
+                  <div class="btm-hover h-full w-full md:w-1/2 flex flex-col justify-between relative">
+                    <div class="hover-left">
+                      <h2>Metastaq 
+                        <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                      </h2>
+                      <p>A B2B Blockchain platform that helps brands engage with their community, monetize loyal consumers more effectively, and reward high-value actions with exclusive experiences</p>
+                    </div>
+                    <div class="vid-sec w-full h-2/5 absolute bottom-0 bg-cover bg-center bg-[url(./assets/hover-3.webp)]">
+                      <video src="https://lazarev.kiev.ua/cases/la24/metastaq-A-cover.mp4"></video>
+                    </div>
+                  </div>
+                  <div class="btm-hover h-full w-full md:w-1/2 flex flex-col justify-between relative mt-[8vh] md:mt-0 mb-[5vh] md:mb-0">
+                    <div class="hover-left">
+                      <h2>11 Sight
+                        <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                      </h2>
+                      <p>11 Sight is a leader in the space of one-click video technology, recognized as one of the most innovative companies of 2021 at Silicon Valley's annual flagship conference.</p>
+                    </div>
+                    <div class="vid-sec w-full h-2/5 absolute bottom-0 bg-cover bg-center bg-[url(./assets/hover-4.webp)]">
+                      <video src="https://lazarev.kiev.ua/cases/la24/11sight-cover-small.mp4"></video>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="page5" class="min-h-screen lg:w-[88vw] w-[94vw] mx-auto pt-[6vh] md:pt-[8vw]">
+        <div id="page5-heading" class="my-[7vh] md:my-0">
+          <h2 class="text-[5vh] leading-[5vh] md:text-[5.5vw] md:leading-[5.5vw] lg:text-[4.5vw] font-bold tracking-tighter lg:leading-[4.5vw] lg:pl-[30%]">Digital Product<br>Design Services And<br>Solutions We Offer</h2>
+        </div>
+        <div id="page5-content" class="py-[5vw] my-[4vw] border-t border-gray-600 flex flex-col-reverse lg:flex-row justify-between">
+          <div id="left-content" class="lg:w-1/4 my-[4vh] md:my-0 flex justify-center md:justify-normal lg:justify-center">
+            <div id="fixed-btn" class="bg-green-600 w-11/12  md:w-fit h-fit px-[10vw] py-[2vh] md:py-[1.8vw] lg:px-[3vw] lg:py-[1.2vw] flex justify-center md:justify-normal rounded-full transition-all hover:scale-110 sticky top-[18%]">
+              <h4 class="text-[2vh] md:text-[2vw] lg:text-[.9vw] uppercase font-bold">Become A Client</h4>
+              <svg class="h-[2vh] md:h-[1.8vw] ml-[2vh] md:ml-[2vw] mt-[.5vw] lg:mt-0 lg:h-[1vw] lg:ml-[1.3vw]" fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+            </div>
+          </div>
+          <div id="right-content" class=" lg:w-[70%]">
+            <div id="top-para" class="mt-[3vh] md:mt-0 mb-[8vh] md:mb-[12vw] lg:mb-[5vw]">
+              <p class="text-[4vh] leading-[4vh] md:text-[3.2vw] lg:text-[2.3vw]"><span class="w-[20vw] block mb-[3vw] lg:mb-0 lg:inline-block text-[1.5vh] md:text-[1.8vw] lg:text-[1vw] font-bold">Services</span>We lead your startup at every step of its <span class="w-[20vw] hidden lg:inline-block"></span>growth, providing unparalleled personal service at every interaction. Whether it's launching an MVP, revamping an existing product, securing funding with UI prototypes, increasing customer engagement, or boosting conversions, we develop a suite of custom-tailored design services to fulfill your expectations.</p>
+            </div>
+            <div class="design-info border-t  border-gray-600 pt-[2.5vh] md:pt-[1vw] relative">
+            <details open>
+              <summary class="marker:content-['']">
+                <div class="info-head pb-[4vw]">
+                  <h3>UI UX Design
+                    <i class="fa-solid fa-angle-up"></i>
+                  </h3>
+                  <h6><span>UX Audit</span><span>UI Design</span><span>UX Design</span><span>UX Research</span></h6>
+                </div>
+              </summary>
+                  <div class="info-all">
+                    <div class="info-hover"></div>
+                    <h3>UX Research</h3>
+                    <p>Before making any design solutions, our team conducts UX research, leaving no stone unturned. This entails market analysis, competitor assessment, crystallizing your product positioning, and defining comprehensive feature lists.</p>
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                  </div>
+                  <div class="info-all">
+                    <div class="info-hover"></div>
+                    <h3>UX Design</h3>
+                    <p>UX designers take on the task of transferring user research insights and design solutions onto the interface. Through a series of user tests and iterative sessions, we ensure the digital experience is both scalable and highly functional.</p>
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                  </div>
+                  <div class="info-all">
+                    <div class="info-hover"></div>
+                    <h3>UI Design</h3>
+                    <p>The service encompasses all aspects of creating visually appealing digital interfaces, starting from setting UI design direction to developing UI design concepts and design systems and, finally, facilitating a seamless design-to-development hand-off.</p>
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                  </div>
+                  <div class="info-all">
+                    <div class="info-hover"></div>
+                    <h3>UX Audit</h3>
+                    <p>Ahead of shaking up the market with a product relaunch or UI/UX redesign, our researchers do UX auditing. It involves an evaluation of the digital interface from UX, marketing, and business standpoints, ultimately providing valuable recommendations for improvement.</p>
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                  </div>
+            </details>
+            </div>
+            <div class="design-info border-t  border-gray-600 pt-[2.5vh] md:pt-[1vw] relative">
+              <details>
+                <summary class="marker:content-['']">
+                  <div class="info-head pb-[4vw]">
+                    <h3>Product Design
+                      <i class="fa-solid fa-angle-up"></i>
+                    </h3>
+                    <h6><span>Website Design</span><span>Mobile App</span><span>Web App</span><span>SaaS</span></h6>
+                  </div>
+                </summary>
+                  <div class="info-all">
+                    <div class="info-hover"></div>
+                    <h3>Website Design</h3>
+                    <p>To ensure the digital presence and growth of your business, we create a conversion-oriented website or promotional landing page. By adhering to your brand guidelines, we design a visually pleasing marketing website that connects with your customers. </p>
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                  </div>
+                  <div class="info-all">
+                    <div class="info-hover"></div>
+                    <h3>Mobile App</h3>
+                    <p>Our product team helps build B2B and B2C mobile apps with truly convenient digital experiences. We ensure the app design lets users complete their desired actions in minimum steps and get the most value out of it. </p>
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                  </div>
+                  <div class="info-all">
+                    <div class="info-hover"></div>
+                    <h3>Web App</h3>
+                    <p>Our team builds web apps tailored for enterprises (B2B) to facilitate daily work operations, streamline business processes, etc. As well as do we design web apps for end-users (B2C) for business and routine purposes. </p>
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                  </div>
+                  <div class="info-all">
+                    <div class="info-hover"></div>
+                    <h3>SaaS</h3>
+                    <p>From the moment users step onboard, we unlock the true potential of your digital solution and create an ‘aha’ moment. This way, we shield against high churn rates and amp up your Monthly Recurring Revenue (MRR).</p>
+                    <svg fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+                  </div>
+              </details>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div id="page6" class="min-h-screen bg-white mx-auto text-black px-[4vw] py-[8vw]">
+        <div id="page6-heading" class="my-[7vh] md:my-0">
+          <h2 class="text-[5vh] leading-[5vh] md:text-[5.5vw] md:leading-[5.5vw] lg:text-[4.5vw] font-bold tracking-tighter lg:leading-[4.5vw] lg:pl-[30%]">Digital Product<br>Design Process</h2>
+        </div>
+        <div id="page6-content" class="pt-[5vw] my-[4vw] border-t border-gray-600 flex flex-col-reverse lg:flex-row justify-between">
+          <div id="left-content" class="lg:w-1/4 my-[4vh] md:my-0 flex justify-center md:justify-normal lg:justify-center">
+            <div id="fixed-btn" class="bg-blue-600 text-white w-11/12  md:w-fit h-fit px-[10vw] py-[2vh] md:py-[1.8vw] lg:px-[3vw] lg:py-[1.2vw] flex justify-center md:justify-normal rounded-full transition-all hover:scale-110 sticky top-[18%]">
+              <h4 class="text-[2vh] md:text-[2vw] lg:text-[.9vw] uppercase font-bold">See all case studies</h4>
+              <svg class="h-[2vh] md:h-[1.8vw] ml-[2vh] md:ml-[2vw] mt-[.5vw] lg:mt-0 lg:h-[1vw] lg:ml-[1.3vw]" fill="none" viewBox="0 0 15 15"><path fill="currentColor" fill-rule="evenodd" d="M10.125 3.153H1.961V1H13.8v11.839h-2.152V4.675L2.722 13.6 1.2 12.078l8.925-8.925Z" clip-rule="evenodd"></path></svg>
+            </div>
+          </div>
+          <div id="right-content" class=" lg:w-[70%] lg:pr-[25%]">
+            <div id="top-para" class="mb-[5vw]">
+              <p class="text-[2.2vh] md:text-[2.8vw] lg:text-[1.9vw] tracking-tighter lg:leading-[2vw] mb-[4vw] lg:mb-[8vw] opacity-80">We do not take on projects that involve blind conformity or designing out of context. We won't settle for a user interface design that is misaligned with your product and digital strategy. Neither will we launch web development ventures without user testing to validate our design solutions.</p>
+              <p class="text-[2.2vh] md:text-[2.8vw] lg:text-[1.9vw] tracking-tighter lg:leading-[2vw] opacity-80">Instead, we create scalable digital products that meet the ever-evolving demands of our customers, ensuring long-term sustainability.</p>
+            </div>
+          </div>
+        </div>
+        <div id="page6-scroll" class="lg:border-t lg:border-gray-600 flex flex-wrap lg:flex-nowrap lg:justify-end mt-[20vw] lg:mt-0">
+            <div id="sec-1" class="sec w-full md:w-1/2 lg:w-[23vw]">
+              <div class="sec-head">
+                <h5>Product Strategy</h5>
+              </div>
+              <div class="sec-body">
+                <h4 class="translate-x-0"><span>1</span>Strategy Workshops</h4>
+                <h4 class="translate-x-[15%]"><span>2</span>Idea Validation</h4>
+                <h4 class="translate-x-[30%]"><span>3</span>Market Research</h4>
+                <h4 class="translate-x-[45%]"><span>4</span>Product Positioning</h4>
+                <h4 class="translate-x-[60%]"><span>5</span>UX Research</h4>
+                <h4 class="translate-x-[75%]"><span>6</span>Functional Decomposition</h4>
+              </div>
+            </div>
+            <div id="sec-2" class="sec w-full md:w-1/2 lg:w-[13vw]">
+              <div class="sec-head">
+                <h5>UX Design</h5>
+              </div>
+              <div class="sec-body">
+                <h4 class="translate-x-0"><span>7</span>User Flows</h4>
+                <h4 class="translate-x-[30%]"><span>8</span>Prototyping</h4>
+              </div>
+            </div>
+            <div id="sec-3" class="sec w-full md:w-1/2 lg:w-[18vw]">
+              <div class="sec-head">
+                <h5>UI Design</h5>
+              </div>
+              <div class="sec-body">
+                <h4 class="translate-x-0"><span>9</span>Moodboards</h4>
+                <h4 class="translate-x-[30%]"><span>10</span>Visual Design</h4>
+                <h4 class="translate-x-[60%]"><span>11</span>Hand-off</h4>
+              </div>
+            </div>
+            <div id="sec-4" class="sec w-full md:w-1/2 lg:w-[10vw]">
+              <div class="sec-head">
+                <h5>Delivery</h5>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div id="page7" class="min-h-screen  lg:w-[88vw] w-[94vw] mx-auto">
+          <div id="page7-content" class="py-[10vw] border-b border-gray-600 flex flex-col lg:flex-row justify-between">
+           <div id="left-content" class="lg:w-1/2 h-fit flex flex-col lg:sticky lg:right-0 lg:top-[18%]">
+              <h5 class="text-[1.8vh] md:text-[1.8vw] lg:text-[1vw] font-medium opacity-90 uppercase">Testimonials</h5>
+              <h2 class="text-[6vh] leading-[6vh] md:text-[5.2vw] lg:text-[3.5vw] capitalize tracking-tighter md:leading-[5.5vw] lg:leading-[3.5vw] w-10/12 lg:w-full font-bold lg:mt-[3vw] mt-[6vw] mb-[5vh] md:mb-[3vw] lg:mb-[6vw]">Clients speak out: what they say about our AI design</h2>
+              <p class="text-[2vh] leading-[2.2vh] md:text-[1.8vw] lg:text-[.9vw] md:leading-[2.1vw] lg:leading-[1.3vw] opacity-90 md:w-1/2 font-bold tracking-tighter mb-[14vw] lg:mb-0">Even though the world of the decentralized web is a next-level experience, it has fundamental issues that hinder your project from growing. Having partnered with various Web3 startups, we developed key steps to address each with design.</p>
+          </div>
+          <div id="right-content" class="lg:w-1/2 mt-[4vh] md:mt-0">
+            <div class="testmo py-[5vh] md:py-[3vw] border-t border-gray-600">
+              <h6 class="text-[1.6vh] md:text-[1.6vw] lg:text-[.9vw] opacity-90 pb-[3vw] lg:pb-[2vw] font-bold tracking-tighter">/01</h6>
+              <h3 class="text-[3.2vh] leading-[3.3vh] md:text-[3.1vw] md:leading-[3.2vw] lg:text-[1.5vw] opacity-95 font-medium lg:leading-[2vw] pb-[5vw]">"I had the pleasure of working with Maria and Lera backed by the amazing design team at Lazarev, and I cannot recommend them highly enough. From start to finish, they were excellent communicators and made the entire process incredibly smooth."</h3>
+              <h6 class="text-[1.8vh] md:text-[2vw] lg:text-[1.1vw] opacity-90 pb-[2vw] font-bold tracking-tighter text-center">The GiZMo47</h6>
+            </div>
+            <div class="testmo py-[5vh] md:py-[3vw] border-t border-gray-600">
+              <h6 class="text-[1.6vh] md:text-[1.6vw] lg:text-[.9vw] opacity-90 pb-[3vw] lg:pb-[2vw] font-bold tracking-tighter">/02</h6>
+              <h3 class="text-[3.2vh] leading-[3.3vh] md:text-[3.1vw] md:leading-[3.2vw] lg:text-[1.5vw] opacity-95 font-medium lg:leading-[2vw] pb-[5vw]">"They care about the client and have a deep focus on solving problems efficiently."</h3>
+              <h6 class="text-[1.8vh] md:text-[2vw] lg:text-[1.1vw] opacity-90 pb-[2vw] font-bold tracking-tighter text-center">The Wacko47</h6>
+            </div>
+            <div class="testmo py-[5vh] md:py-[3vw] border-t border-gray-600">
+              <h6 class="text-[1.6vh] md:text-[1.6vw] lg:text-[.9vw] opacity-90 pb-[3vw] lg:pb-[2vw] font-bold tracking-tighter">/03</h6>
+              <h3 class="text-[3.2vh] leading-[3.3vh] md:text-[3.1vw] md:leading-[3.2vw] lg:text-[1.5vw] opacity-95 font-medium lg:leading-[2vw] pb-[5vw]">"From start to finish, they were excellent communicators and made the entire process incredibly smooth."</h3>
+              <h6 class="text-[1.8vh] md:text-[2vw] lg:text-[1.1vw] opacity-90 pb-[2vw] font-bold tracking-tighter text-center">John Doe</h6>
+            </div>
+            <div class="testmo py-[5vh] md:py-[3vw] border-t border-gray-600">
+              <h6 class="text-[1.6vh] md:text-[1.6vw] lg:text-[.9vw] opacity-90 pb-[3vw] lg:pb-[2vw] font-bold tracking-tighter">/04</h6>
+              <h3 class="text-[3.2vh] leading-[3.3vh] md:text-[3.1vw] md:leading-[3.2vw] lg:text-[1.5vw] opacity-95 font-medium lg:leading-[2vw] pb-[5vw]">"I cannot recommend them highly enough. From start to finish, they were excellent communicators and made the entire process incredibly smooth."</h3>
+              <h6 class="text-[1.8vh] md:text-[2vw] lg:text-[1.1vw] opacity-90 pb-[2vw] font-bold tracking-tighter text-center">Ahmad Javed</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page8" class="min-h-screen  lg:w-[88vw] w-[94vw] mx-auto relative">
+        <h5 class="text-[6vw] font-bold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-center">Thanks For Visiting <br> <span class="text-[4vw] font-medium">Made By GiZMo47</span></h5>
+      </div>
+      <footer id="page9" class=" border-t border-gray-600 px-[3vw] mx-auto lg:px-[6vw] py-[2vw] flex flex-col lg:flex-row justify-between">
+        <h6 class="md:w-7/12 lg:font-semibold text-[2vh] md:text-[1.8vw] pt-[4vw] lg:pt-0 lg:text-[.9vw]">Lazarev. — Product Design Agency.</h6>
+        <div id="footer-left" class="lg:w-5/12 py-[4vw] lg:py-0 flex justify-between">
+          <h6 class="lg:font-semibold text-[2vh] md:text-[1.8vw] lg:text-[.9vw]">All Rights Reserved (GiZMo47)</h6>
+          <h6 class="lg:font-semibold text-[2vh] md:text-[1.8vw] lg:text-[.9vw]">© 2024</h6>
+        </div>
+      </footer>
+    </main>
+
+
+
+
+    <!-- LOCO-MOTIVE -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- GSAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- GSAP SCROLL-TRIGGER -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
